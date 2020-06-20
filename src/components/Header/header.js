@@ -20,7 +20,7 @@ class header extends React.Component {
                         </ul>
                         <form class="form-inline col-md-4" action="/action_page.php">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-                        <button class="btn btn-success" type="submit">Search</button>
+                        <button class="btn btn-danger" type="submit">Search</button>
                         </form>
                         </nav>
                         
