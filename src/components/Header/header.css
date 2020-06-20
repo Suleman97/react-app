@@ -1,0 +1,12 @@
+.back-img{
+    background:url(imgs/background.jpg);
+}
+
+div{
+    color:#CCC;
+}
+.max-margin{
+    margin: 0;
+    padding: 100px;
+
+}
