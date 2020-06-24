@@ -1,0 +1,14 @@
+.imgs{
+    box-sizing: border-box;
+    /* max-width: 100%; */
+}
+.size{
+    max-width: 100%;
+}
+
+.nopadding
+{
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
