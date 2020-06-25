@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from './components/Header/header';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 import CustomCard from "./components/Content/content";
 
 import WorkCollage from "./components/Collage/collage";
+
+import TeamCard from "./components/Team/team";
 
 function App() {
   return (
@@ -26,6 +29,14 @@ function App() {
       <WorkCollage img="work18" />
       <WorkCollage img="work15" />
       <WorkCollage img="work18" />
+      <TeamCard img="CEO" designation="FOUNDER CEO" name="Ruth Woods" description="Your privacy is very important to us. We designed our
+Data Policy to make importan" />
+<TeamCard img="COF" designation="CO-FOUNDER" name="Timooty Reeth" description="Your privacy is very important to us. We designed our
+Data Policy to make importan" />
+<TeamCard img="UI" designation="UI DESIGNNER" name="Victoria Cat" description="Your privacy is very important to us. We designed our
+Data Policy to make importan" />
+<TeamCard img="Scientist" designation="DATA SCIENTIST" name="Brevely Little" description="Your privacy is very important to us. We designed our
+Data Policy to make importan" />
     </div>
   );
 }

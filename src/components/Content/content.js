@@ -48,7 +48,7 @@ class CustomCard extends React.Component {
                 <div className="card-body">
                 <center>
                     <img src={this.state.imgKey[this.state.img]}></img>
-                    <h4 className="card-title clr mt-3">{this.state.name}</h4>
+                    <h4 className="card-title clr mt-3">{this.state.name} </h4>
                 <p className="card-text clr mt-3">{this.state.description}</p></center>
                 </div>
                 </div>
