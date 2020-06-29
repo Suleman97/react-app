@@ -24,10 +24,6 @@ class TeamCard extends React.Component{
                 "Scientist" : scientist,
             }
         }
-
-
-
-
     }
 
     componentDidMount(){

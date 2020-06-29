@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import Banner from './banner';
 import img from './imgs/logo.png'
 import './header.css'
 // import src from '*.bmp';
@@ -23,17 +24,10 @@ class header extends React.Component {
                         <button className="btn btn-danger" type="submit">Search</button>
                         </form>
                         </nav>
+                        <Banner />
                         
                     </div>
-                    <div className="container div1 max-margin">
                     
-                    <center><h1 className="head1"><b>Your Favorite One Page<br/>Multi Perpose Tamplate</b></h1>
-                    <p className="head1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <button type="button" className="btn btn-danger">Find Out More</button></center>
-                        
-
-                    </div>
                 </div>
             
         );
