@@ -42,7 +42,7 @@ class WorkCollage extends React.Component{
             <React.Fragment>
                 <div className="container">
                 <div className="container float-left col-md-3 nopadding imgs">
-                <img src={this.state.imgKey[this.state.img]} className="size"></img>
+                <img src={this.state.imgKey[this.state.img]} className="size rounded"></img>
                 </div>
                 </div>
             </React.Fragment>

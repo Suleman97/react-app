@@ -40,10 +40,11 @@ class TeamCard extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <div className="container mt-3">
-                <div className="card float-left col-md-3" >
+                <div className="container">
+                <div className="card float-left col-md-3 mt-3">
+                <img src={this.state.imgKey[this.state.img]} className="rounded"></img>
                 <div className="card-body">
-                    <img src={this.state.imgKey[this.state.img]}></img>
+                    
                     <h4 className="card-title clr mt-3"><i>{this.state.name} </i></h4>
                     <p className="mt-1 red">{this.state.designation}</p>
                     <p className="card-text clr mt-3">{this.state.description}</p>

@@ -10,6 +10,8 @@ import WorkCollage from "./components/Collage/collage";
 
 import TeamCard from "./components/Team/team";
 
+import CustomSlider from "./components/Slider/slider"
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +39,8 @@ Data Policy to make importan" />
 Data Policy to make importan" />
 <TeamCard img="Scientist" designation="DATA SCIENTIST" name="Brevely Little" description="Your privacy is very important to us. We designed our
 Data Policy to make importan" />
+
+    <CustomSlider />
     </div>
   );
 }

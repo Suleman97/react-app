@@ -10,7 +10,7 @@ class header extends React.Component {
     render(){
         return (
                 <div className="container-fluid back-img ">
-                    <div className="container div1">
+                    <div className="container">
                     <nav className="navbar navbar-expand-sm  navbar-dark">
                     <span className="navbar-brand col-md-3"><img src={img}></img></span>
                         <ul className="navbar-nav col-md-5">
