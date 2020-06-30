@@ -1,18 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Banner from './banner';
 import img from './imgs/logo.png'
 import './header.css'
-// import src from '*.bmp';
-// style={backgroundImage: "url("+ background + ")"};
 
 class header extends React.Component {
     render(){
         return (
+            <React.Fragment>
                 <div className="container-fluid back-img ">
                     <div className="container">
-                    <nav className="navbar navbar-expand-sm  navbar-dark">
-                    <span className="navbar-brand col-md-3"><img src={img}></img></span>
+                        <nav className="navbar navbar-expand-sm navbar-dark">
+                        <span className="navbar-brand col-md-3"><img src={img}></img></span>
                         <ul className="navbar-nav col-md-5">
                             <li className="nav-item"><span class="nav-link active">Home</span></li>
                             <li className="nav-item"><span class="nav-link">About Us</span></li>
@@ -26,9 +25,9 @@ class header extends React.Component {
                         </nav>
                         <Banner />
                         
-                    </div>
-                    
+                    </div>  
                 </div>
+            </React.Fragment>
             
         );
     }

@@ -1,13 +1,12 @@
 import React from "react";
 import './content.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import img1 from './imgs/featurelogo2.gif';
 import img2 from './imgs/featurelogo3.gif';
 import img3 from './imgs/featurelogo4.gif';
 import img4 from './imgs/featurelogo5.gif';
 import img5 from './imgs/featurelogo6.gif';
 import img6 from './imgs/icon.png';
-
-// import img1 from "./imgs"
 
 class CustomCard extends React.Component {
     constructor(props){
@@ -41,18 +40,16 @@ class CustomCard extends React.Component {
     render(){
         return(
             <React.Fragment>
-                
                 <div className="container mt-3">
-                <div className="card float-left col-md-4 mt-3" >
-                {/* <img className="card-img-top" alt="Card image" style={{width:"100%"}} /> */}
-                <div className="card-body">
-                <center>
-                    <img src={this.state.imgKey[this.state.img]}></img>
-                    <h4 className="card-title clr mt-3">{this.state.name} </h4>
-                <p className="card-text clr mt-3">{this.state.description}</p></center>
-                </div>
-                </div>
-
+                    <div className="card float-left col-md-4 mt-3" >
+                        <div className="card-body">
+                            <center>
+                                <img src={this.state.imgKey[this.state.img]}></img>
+                                <h4 className="card-title mt-3">{this.state.name} </h4>
+                                <p className="card-text mt-3">{this.state.description}</p>
+                            </center>
+                        </div>
+                    </div>
                 </div>
             </React.Fragment>
         )

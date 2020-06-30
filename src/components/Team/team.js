@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 
 import "./team.css";
 
@@ -41,20 +42,17 @@ class TeamCard extends React.Component{
         return(
             <React.Fragment>
                 <div className="container">
-                <div className="card float-left col-md-3 mt-3">
-                <img src={this.state.imgKey[this.state.img]} className="rounded"></img>
-                <div className="card-body">
-                    
-                    <h4 className="card-title clr mt-3"><i>{this.state.name} </i></h4>
-                    <p className="mt-1 red">{this.state.designation}</p>
-                    <p className="card-text clr mt-3">{this.state.description}</p>
-                    <i className="fa fa-facebook-official pad" aria-hidden="true"></i>
-                    <i className="fa fa-twitter-square pad" aria-hidden="true"></i>
-                    <i className="fa fa-linkedin-square pad" aria-hidden="true"></i>
-
-                </div>
-                </div>
-
+                    <div className="card float-left col-md-3 mt-3">
+                        <img src={this.state.imgKey[this.state.img]} className="rounded"></img>
+                        <div className="card-body">
+                            <h4 className="card-title clr mt-3"><i>{this.state.name} </i></h4>
+                            <p className="mt-1 red">{this.state.designation}</p>
+                            <p className="card-text clr mt-3">{this.state.description}</p>
+                            <i className="fa fa-facebook-official pad" aria-hidden="true"></i>
+                            <i className="fa fa-twitter-square pad" aria-hidden="true"></i>
+                            <i className="fa fa-linkedin-square pad" aria-hidden="true"></i>
+                        </div>
+                    </div>
                 </div>
             </React.Fragment>
 

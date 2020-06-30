@@ -2,15 +2,11 @@ import React from 'react';
 import Header from './components/Header/header';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
-
-
 import CustomCard from "./components/Content/content";
-
 import WorkCollage from "./components/Collage/collage";
-
 import TeamCard from "./components/Team/team";
-
-import CustomSlider from "./components/Slider/slider"
+import CustomSlider from "./components/Slider/slider";
+import DownloadBanner from "./components/Download_banner/download";
 
 function App() {
   return (
@@ -41,6 +37,7 @@ Data Policy to make importan" />
 Data Policy to make importan" />
 
     <CustomSlider />
+    <DownloadBanner />
     </div>
   );
 }
