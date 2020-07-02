@@ -28,14 +28,10 @@ function App() {
       <WorkCollage img="work18" />
       <WorkCollage img="work15" />
       <WorkCollage img="work18" />
-      <TeamCard img="CEO" designation="FOUNDER CEO" name="Ruth Woods" description="Your privacy is very important to us. We designed our
-Data Policy to make importan" />
-<TeamCard img="COF" designation="CO-FOUNDER" name="Timooty Reeth" description="Your privacy is very important to us. We designed our
-Data Policy to make importan" />
-<TeamCard img="UI" designation="UI DESIGNNER" name="Victoria Cat" description="Your privacy is very important to us. We designed our
-Data Policy to make importan" />
-<TeamCard img="Scientist" designation="DATA SCIENTIST" name="Brevely Little" description="Your privacy is very important to us. We designed our
-Data Policy to make importan" />
+      <TeamCard img="CEO" designation="FOUNDER CEO" name="Ruth Woods"  />
+<TeamCard img="COF" designation="CO-FOUNDER" name="Timooty Reeth"  />
+<TeamCard img="UI" designation="UI DESIGNNER" name="Victoria Cat"  />
+<TeamCard img="Scientist" designation="DATA SCIENTIST" name="Brevely Little"  />
 
     <CustomSlider />
     <DownloadBanner />

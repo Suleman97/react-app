@@ -30,6 +30,9 @@ class CustomCard extends React.Component {
     }
 
     componentDidMount(){
+        fetch('https://randomuser.me/api/')
+            .then(res =>res.json())
+            .then(result=>console.log(result))
         this.setState({
             name:this.props.name,
             description:this.props.des,
