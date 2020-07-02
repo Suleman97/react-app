@@ -7,6 +7,7 @@ import WorkCollage from "./components/Collage/collage";
 import TeamCard from "./components/Team/team";
 import CustomSlider from "./components/Slider/slider";
 import DownloadBanner from "./components/Download_banner/download";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ Data Policy to make importan" />
 
     <CustomSlider />
     <DownloadBanner />
+    <Footer />
     </div>
   );
 }
