@@ -1,0 +1,13 @@
+.imgs{
+    box-sizing: border-box;
+}
+.size{
+    max-width: 100%;
+}
+
+.nopadding
+{
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
